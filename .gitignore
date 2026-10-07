@@ -1,0 +1,22 @@
+# Haskell compiler files
+*.hi
+*.o
+*.dyn_hi
+*.dyn_o
+
+# Cabal / GHC build directories
+dist-newstyle/
+dist/
+.cache/
+
+# IDE/editor files
+.vscode/
+.idea/
+
+# Temporary files
+*.tmp
+*.log
+
+# Windows files
+Thumbs.db
+Desktop.ini
