@@ -1,24 +1,39 @@
-EC8206 Functional Programming - Project
+# EC8206 Functional Programming Project
 
-Folder structure
-----------------
-src/Expr.hs                  Core expression type and evaluator
-app/Main.hs                  Sample demonstrations and output
- eval/eval_imperative.py     Imperative-style Python comparison for Part D
-report/EC8206_Project_Report.docx
+## Arithmetic Expression Interpreter
 
-How to run Haskell
-------------------
-1. Open a terminal in the project root.
-2. Start GHCi:
-      ghci -isrc app\\Main.hs
-3. Run:
-      main
+This project implements a small type-safe arithmetic expression
+interpreter using Haskell for the EC8206 Functional Programming module.
 
-To build an executable:
-      ghc -isrc app\\Main.hs -o interpreter.exe
+## Features
 
-Then run on Windows:
-      .\\interpreter.exe
+- Algebraic Data Type for arithmetic expressions
+- Numeric literals
+- Variable references
+- Addition
+- Subtraction
+- Multiplication
+- Division
+- Let bindings
+- Recursive evaluation
+- Division-by-zero handling
+- Undefined-variable handling
+- Expression simplification
+- Higher-order functions
+- Partial application
+- Batch expression evaluation
 
+## Project Structure
 
+```text
+src/
+    Expr.hs
+
+app/
+    Main.hs
+
+eval/
+    eval_imperative.py
+
+report/
+    EC8206_Project_Report.docx
